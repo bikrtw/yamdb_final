@@ -16,6 +16,7 @@ services:
       - ./.env
   web:
     image: bikrtw/yamdb_final:latest
+#    build: ../
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 
